@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pastor James J Brown Jr - Reflections</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="A website to honor the memory of Pastor James J Brown Jr">
+    <meta name="keywords" content="web, development, tribute, ministry, cooking, biography, james j brown jr, omaha">
+    <meta name="robots" content="nofollow">
+    <meta name="pragma" content="no-cache">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+	<!--<link rel="stylesheet" href="biosite.css" media="screen">-->
+    <link rel="stylesheet" href="transfonter/stylesheet.css">
+
+    <style>
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+        body {
+	        background: linear-gradient(to bottom, #728FCE 0%,
+				#FFFFFF 100%);
+        }
+        header {
+            padding-bottom: 6px;
+	        padding-top: 3px;
+	        box-shadow: 0 5px 0px 0 rgba(7, 5, 5, 0.2);
+        }
+        footer {
+            font-family:'PT Sans Narrow', Arial, sans-serif;
+            padding: 5px;
+        }
+        a:link {
+	        color: #00FFFF;
+	        background-color: transparent;
+	        text-decoration: none;
+        }
+        a:visited {
+	        color: green;
+	        background-color: transparent;
+	        text-decoration: none;
+        }
+        a:hover {
+	        color: black;
+	        background-color: transparent;
+	        text-decoration: underline;
+        }
+        a:active {
+	        color: #EDDA74;
+	        background-color: transparent;
+	        text-decoration: underline;
+        }
+        h1 {
+            font-family:'Herr Von Muellerhoff', Arial, sans-serif;
+        }
+        #mainImage {
+            border: 5px ridge black;
+        }
+        figcaption {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="text-bg-warning">
+            <h3 class="container mt-3 text-center">A Tribute To</h3>
+            <h1 class="container mt-3 text-center display-1">Pastor James J Brown Jr</h1>
+        </header>
+
+        <nav class="container mt-3">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                <li class="nav-item"><a class="nav-link" href="reflections.html">Reflections</a></li>
+            </ul>
+        </nav>
+
+        <h2 class="mt-3 text-center">Reflections</h2>
+
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="text-center">
+                        The images on this page are reflections of events in Pastor Brown's life, also 
+                        of family and duty to his faith, to which the Pastor held in the highest regard.  It would be impossible
+                        to mark every milestone or special occasion that occurred during his 71 years of 
+                        existence, or to show every person whose life was touched by him, and vice-versa.
+                        Hopefully, everyone who views this gallery of pictures will be touched in a positive
+                        way that allows one to keep Pastor Brown alive through memory, in the absence of his 
+                        physical presence. 
+                    </p>
+                    <p class="lead fw-bold text-center">
+                        Click on any image below to see it in the larger section.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function displayImage(imageFile){
+            var largerImage = document.getElementById("mainImage");
+            var newNode = document.createElement("img");
+            newNode.id = "mainImage";
+            newNode.src = imageFile;
+            newNode.alt = "Large Image";
+            newNode.className = "mainImage";
+            newNode.style.width = "300px";
+            newNode.style.height = "300px";
+            largerImage.parentNode.replaceChild(newNode, largerImage);
+           }
+
+           let caption;
+           function showKidCaption() {
+           caption = "Young James - 12 years old.";
+           document.getElementById('describe_content').innerHTML = caption;
+           } 
+           function showYoungCaption() {
+           caption = "James in his college days.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showMomDadCaption() {
+           caption = "James and his first wife, Patricia.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showBusCaption() {
+           caption = "James working for OPS Transportation.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showBaptizeCaption() {
+           caption = "Baptizing.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showChefDadCaption() {
+           caption = "Thanksgiving Gathering.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showChevyCaption() {
+           caption = "1967 Chevy Super Bee - James' favorite car.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showCookCaption() {
+           caption = "Carving up the turkey.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showWeddingCaption() {
+           caption = "James and Dorothy's wedding.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showGrandpaCaption() {
+           caption = "James in his house on 38th & Pratt.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showCakeCaption() {
+           caption = "Pastor Brown's cake.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showPortraitCaption() {
+           caption = "Portrait of Pastor Brown.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showSevenCaption() {
+           caption = "James in his role as area manager for 7-Eleven stores in North Omaha.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showDebbieKidsCaption() {
+           caption = "James's sister, Debra Brown-McCray (R.I.P.), with her granddaughter, Sasha, and James' grandson, Jakir.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showRevBrownCaption() {
+           caption = "Pastor Brown on the job.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showPanthersCaption() {
+           caption = "James's cousin, Edward (Butch) Poindexter, activist Angela Davis, and Mondo weLanga (fka David Rice).";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showEatCakeCaption() {
+           caption = "Eat the cake, Tie!";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showFamAffairCaption() {
+           caption = "Debbie, James, Jakir and cousin Butch at the Henley Family reunion 2018.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showDorothyJayCaption() {
+           caption = "Dorothy visiting James III at work.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showDorothyFamCaption() {
+           caption = "More of James' family - Jermaine, Lester, Clifford, Lonnie, Herb, Sonjia, Gerri and " +
+           "her husband, Clarence.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showParentsCaption() {
+           caption = "James' parents - Pastor James J Brown Sr., and Alice Brown.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showStanleyCaption() {
+           caption = "Wendell Stanley was an associate minister at Calvary Baptist Church. " +  
+           "He and his family were good friends to Pastor Brown.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showRingCaption() {
+           caption = "With this ring...";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showGroupCaption() {
+           caption = "In the back - Herb, Clifford II, Clifford Sr, Jakir, James III. " +
+           " In front - Dorothy and James Jr.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showDebbieYattaCaption() {
+           caption = "Debbie and her daughter, Kenyatta.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showMotherSunzCaption() {
+           caption = "Mother and Sons at throwback event.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showDad69Caption() {
+           caption = "James' 69th Birthday.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showReneeCaption() {
+           caption = "Tie's cousin, Renee.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showSonjiaCaption() {
+           caption = "A picture from Sonjia's wedding.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showDMaeCaption() {
+           caption = "The pastor's wife enjoying life.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showNumOneCaption() {
+           caption = "Pastor Brown at the water park.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showAliceCaption() {
+           caption = "James with his Aunt Ginny and his mother, Alice.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showRikKiCaption() {
+           caption = "Rikki and her sister, KiKi (R.I.P.).";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showLovingCaption() {
+           caption = "Tie and a sleepy Dorothy.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showUnclesCaption() {
+           caption = "Clifford, Herbert and Jakir.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showWandaCaption() {
+           caption = "Wanda and her husband, Hosea. Tie and Dorothy always called her " + 
+                    "their adopted daughter";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showHerbCaption() {
+           caption = "Herb with his son and daughter, Damone and Danae.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showYattaCaption() {
+           caption = "Kenyatta's Clan - Manny, Sasha, Alejandro and Alia.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showThreeCaption() {
+           caption = "3 Generations.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showCliffordGirlsCaption() {
+           caption = "Clifford's daughters - Breauna, Teryse and Kya.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showLilCliffCaption() {
+           caption = "Clifford's son, young Clifford.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showTroyceCaption() {
+           caption = "Clifford's son, Troyce (R.I.P.).";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showRiekYattaCaption() {
+           caption = "Tariek and Kenyatta";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showHusbandCaption() {
+           caption = "Husband and Wife";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showChefColorCaption() {
+           caption = "Thanksgiving Gathering";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showJayTerriCaption() {
+           caption = "James III and Terri";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showAtYattasCaption() {
+           caption = "Chillin' at Kenyatta's house - James with cousin Tania, " + 
+           "sister Debbie, and great-niece Alia.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showPawPawCaption() {
+           caption = "James with his granddaughter, Breauna";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showGreatGranCaption() {
+           caption = "Tie's grandmother, Lillie Brown";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showDamonCaption() {
+           caption = "Tie's cousin, Damon.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showRaneyAssataCaption() {
+           caption = "Cousin Raney and Cousin Assata (Damon's sister) at the Henley Family Reunion 2018.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showUncleNieceCaption() {
+           caption = "Kenyatta with her Uncle.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showAuntyCaption() {
+           caption = "Rikki with DaVaughn and Tania (KiKi's son and daughter).";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showSonRikkiCaption() {
+           caption = "Rikki with her son, Adrian.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showOnlyGSunCaption() {
+           caption = "Tie with grandson, Jakir.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showJBCaption() {
+           caption = "Pastor Brown with his mother-in-law.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+           function showLastCaption() {
+           caption = "James III and James Jr. - their last picture.";
+           document.getElementById('describe_content').innerHTML = caption;
+           }
+        </script>
+
+        <div class="container mt-3" style="width: 350px;">
+            <div class="row">
+                <div class="col-lg-3">
+                    <figure class="figure ps-2">
+                        <img class="figure-img" src="images/pastor_brown_400.gif" id="mainImage" alt="portrait of pastor brown" 
+                        width="300px" height="300px" onload="showPortraitCaption()">
+                        <figcaption class="figure-caption" id="describe_content"></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-left: 4rem;">
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/kid_james.jpg" id="woodpic" alt="James at 12 years old after catching a big fish" 
+                        width="100px" height="100px" style="border: 1px solid black;" onclick="displayImage('images/kid_james.jpg'); 
+                        showKidCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/youngJB.jpg" id="coastpic" alt="young james in college" 
+                        width="100px" height="100px" style="border: 1px solid black;" onclick="displayImage('images/youngJB.jpg'); 
+                        showYoungCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/mom_dad_200.gif" id="coloradopic" 
+                        alt="picture of james and first wife patricia" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/mom_dad_200.gif'); showMomDadCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Bus Driving.jpg" id="dinerpic" 
+                        alt="james at ops transportation" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Bus Driving.jpg'); showBusCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/baptize.jpg" id="javapic" 
+                        alt="pastor brown performing baptism" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/baptize.jpg'); showBaptizeCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/chef_dad.jpg" id="jaypic" alt="a gathering of james' family" 
+                        width="100px" height="100px" style="border: 1px solid black;" onclick="displayImage('images/chef_dad.jpg'); 
+                        showChefDadCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/chevy_super_bee.jpg" id="jaypic2" 
+                        alt="picture of 1967 chevy super bee" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/chevy_super_bee.jpg'); showChevyCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/cook_james.jpg" id="lighthousepic" 
+                        alt="picture of james carving a turkey" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/cook_james.jpg'); showCookCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/wedding.jpg" id="loungepic" 
+                        alt="james and dorothy's wedding" width="100px" height="100px" 
+                        style="border: 1px solid black;" onclick="displayImage('images/wedding.jpg'); 
+                        showWeddingCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Grandpa.jpg" id="sorensonpic" 
+                        alt="james sitting in chair holding a baby" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Grandpa.jpg'); showGrandpaCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Pastor Cake.jpg" id="textbookpic" 
+                        alt="picture of a cake for james" width="100px" height="100px" 
+                        style="border: 1px solid black;" onclick="displayImage('images/Pastor Cake.jpg'); 
+                        showCakeCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/JB_Chef.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/JB_Chef.jpg'); showJBCaption()">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/JB_7Eleven.jpg" 
+                        alt="james working at seven eleven" class="figure-img img-fluid" id="7Eleven" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/JB_7Eleven.jpg'); 
+                        showSevenCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/debbie_kidz.jpg" 
+                        alt="picture of debbie with sasha and jakir" class="figure-img img-fluid" 
+                        id="debbiekids" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/debbie_kidz.jpg'); showDebbieKidsCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Rev Brown.jpg" 
+                        alt="pastor brown at church" class="figure-img img-fluid" id="revbrown" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Rev Brown.jpg'); showRevBrownCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/political_prisoners.jpg" 
+                        alt="poindexter and mondo with angela davis" class="figure-img img-fluid" id="political" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/political_prisoners.jpg'); showPanthersCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/eat_cake.jpg" 
+                        alt="dorothy feeding james wedding cake" class="figure-img img-fluid" id="eatcake" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/eat_cake.jpg'); showEatCakeCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/family_affair.jpg" 
+                        alt="family gathering for thanksgiving" class="figure-img img-fluid" id="famaffair" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/family_affair.jpg'); showFamAffairCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/dorothy_jay.jpg" 
+                        alt="dorothy and james the third at b.j.'s" class="figure-img img-fluid" id="grandpa" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/dorothy_jay.jpg'); showDorothyJayCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/dorothy_fam.jpg" 
+                        alt="picture of dorothy's family" class="figure-img img-fluid" id="dorfam" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/dorothy_fam.jpg'); showDorothyFamCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/GrandParents.jpg" 
+                        alt="picture of pastor brown senior and his wife alice brown" 
+                        class="figure-img img-fluid" id="grands" width="100px" height="100px" 
+                        style="border: 1px solid black;" onclick="displayImage('images/GrandParents.jpg'); 
+                        showParentsCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/stanley_family.jpg" 
+                        alt="picture of wendell stanley and his family" class="figure-img img-fluid" id="stanley" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/stanley_family.jpg'); showStanleyCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/wedding_ring.jpg" 
+                        alt="picture of james placing ring on dorothy" class="figure-img img-fluid" id="ring" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/wedding_ring.jpg'); showRingCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/group_pic.jpeg" 
+                        alt="picture of james and dorothy with all of the kids." class="figure-img img-fluid" 
+                        id="grouppic" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/group_pic.jpeg'); showGroupCaption()">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/mother_daughter.jpg" 
+                        alt="picture of debbie and kenyatta" class="figure-img img-fluid" id="grouppic" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/mother_daughter.jpg'); showDebbieYattaCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/mother_sunz.jpg" 
+                        alt="picture of herb and clifford with their mother dorothy" 
+                        class="figure-img img-fluid" id="mothersun" width="100px" height="100px" 
+                        style="border: 1px solid black;" onclick="displayImage('images/mother_sunz.jpg'); 
+                        showMotherSunzCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/dad_200.gif" 
+                        alt="picture of james on sixty ninth birthday" class="figure-img img-fluid" 
+                        id="dad69" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/dad_200.gif'); showDad69Caption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Adrian_Renee.jpg" 
+                        alt="picture of james' cousin renee" class="figure-img img-fluid" id="Renee" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Adrian_Renee.jpg'); showReneeCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/sonjia_wedding.jpg" 
+                        alt="picture from sonjia's wedding" class="figure-img img-fluid" id="sonjia" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/sonjia_wedding.jpg'); showSonjiaCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/dorothy_mae.jpg" 
+                        alt="picture of dorothy outside on her back porch" class="figure-img img-fluid" 
+                        id="dmae" width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/dorothy_mae.jpg'); showDMaeCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/number_one_pastor.jpg" 
+                        alt="pastor brown at water park" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/number_one_pastor.jpg'); showNumOneCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Alice_crew.jpg" 
+                        alt="picture of james with his aunt ginny and his mother" 
+                        class="figure-img img-fluid" id="dmae" width="100px" height="100px" 
+                        style="border: 1px solid black;" onclick="displayImage('images/Alice_crew.jpg'); 
+                        showAliceCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Rikki and KiKi.jpg" 
+                        alt="picture of james's cousins Rikki and KiKi" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Rikki and KiKi.jpg'); showRikKiCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/loving_couple.jpg" 
+                        alt="james and dorothy sitting on the couch" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/loving_couple.jpg'); showLovingCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/uncles_nephew.jpg" 
+                        alt="picture of herb and clifford with jakir" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/uncles_nephew.jpg'); showUnclesCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/wanda_froggloc.jpg" 
+                        alt="picture of wanda and her husband hosea" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/wanda_froggloc.jpg'); showWandaCaption()">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Herb_kidz.jpg" 
+                        alt="picture of herb with his son and daughter" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Herb_kidz.jpg'); showHerbCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/yattas_kids.jpg" 
+                        alt="picture of kenyatta's kids" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/yattas_kids.jpg'); showYattaCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/three_generations.jpg" 
+                        alt="picture of james junior, james the third and jakir" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/three_generations.jpg'); showThreeCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/clifford_girls.jpg" 
+                        alt="picture of clifford's three daughters" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/clifford_girls.jpg'); showCliffordGirlsCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/little_clifford.jpg" 
+                        alt="picture of clifford's son clifford" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/little_clifford.jpg'); showLilCliffCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/troyce_rip.jpg" 
+                        alt="picture of clifford's son troyce" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/troyce_rip.jpg'); showTroyceCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/riek_yatta.jpg" 
+                        alt="picture of kenyatta and tariek" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/riek_yatta.jpg'); showRiekYattaCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/husband_wife.jpg" 
+                        alt="portrait of james and dorothy" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/husband_wife.jpg'); showHusbandCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/chef_dad_color.jpg" 
+                        alt="thanksgiving gathering in color" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/chef_dad_color.jpg'); showChefColorCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/jay_terri.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/jay_terri.jpg'); showJayTerriCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/dad_at_yattas.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/dad_at_yattas.jpg'); showAtYattasCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/granpaw_grandkid.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/granpaw_grandkid.jpg'); showPawPawCaption()">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/great-grandma.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/great-grandma.jpg'); showGreatGranCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/cousin_damon.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/cousin_damon.jpg'); showDamonCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/raney_assata.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/raney_assata.jpg'); showRaneyAssataCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Aunty_Rikki.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Aunty_Rikki.jpg'); showAuntyCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Uncle_niece.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Uncle_niece.jpg'); showUncleNieceCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/son_rikki.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/son_rikki.jpg'); showSonRikkiCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/Grandpa & Grandson.jpg" 
+                        alt="picture of james the third and terri" class="figure-img img-fluid" id="dmae" 
+                        width="100px" height="100px" style="border: 1px solid black;" 
+                        onclick="displayImage('images/Grandpa & Grandson.jpg'); showOnlyGSunCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/last_pic.jpg" 
+                        id="sixteenthpic" alt="portrait of pastor brown" width="100px" height="100px" 
+                        style="border: 1px solid black;" onclick="displayImage('images/last_pic.jpg'); 
+                        showLastCaption()">
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 col-xxl-1 gx-0">
+                    <figure class="figure">
+                        <img class="figure-img mx-auto d-block" src="images/pastor_brown_400.gif" 
+                        id="sixteenthpic" alt="portrait of pastor brown" width="100px" height="100px" 
+                        style="border: 1px solid black;" onclick="displayImage('images/pastor_brown_400.gif'); 
+                        showPortraitCaption()">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="text-bg-warning">
+            <nav class="container mt-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item small"><a class="nav-link" href="index.html"><small>Home</small></a></li>
+                    <li class="nav-item small"><a class="nav-link" href="about.html"><small>About</small></a></li>
+                    <li class="nav-item small"><a class="nav-link" href="hobbies.html"><small>Hobbies</small></a></li>
+                </ul>
+            </nav>
+            <p class="mt-3 text-center"><small>Copyright &copy; 2022-2023 RKO Media, Inc. All Rights Reserved</small></p>
+            <p class="mt-3 text-center"><small>Created by: James J Brown III</small></p>
+        </footer>
+    </div>
+</body>
+</html>
